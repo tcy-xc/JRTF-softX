@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abs\NIAI.cpp" />
+    <ClCompile Include="abs\NIAO.cpp" />
+    <ClCompile Include="abs\softX.cpp" />
+    <ClCompile Include="abs\test.cpp" />
+    <ClCompile Include="core\AB.cpp" />
+    <ClCompile Include="core\Cmd.cpp" />
+    <ClCompile Include="core\Console.cpp" />
+    <ClCompile Include="core\Global.cpp" />
+    <ClCompile Include="core\Hub.cpp" />
+    <ClCompile Include="core\main.cpp" />
+    <ClCompile Include="core\Pipeline.cpp" />
+    <ClCompile Include="core\RemoteControl.cpp" />
+    <ClCompile Include="core\ShareData.cpp" />
+    <ClCompile Include="core\TestFunc.cpp" />
+    <ClCompile Include="core\ThreadObject.cpp" />
+    <ClCompile Include="core\Timer.cpp" />
+    <ClCompile Include="core\UdpHelper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abs\NIAI.h" />
+    <ClInclude Include="abs\NIAO.h" />
+    <ClInclude Include="abs\softX.h" />
+    <ClInclude Include="abs\test.h" />
+    <ClInclude Include="core\AB.h" />
+    <ClInclude Include="core\Cmd.h" />
+    <ClInclude Include="core\Console.h" />
+    <ClInclude Include="core\Global.h" />
+    <ClInclude Include="core\Hub.h" />
+    <ClInclude Include="core\Pipeline.h" />
+    <ClInclude Include="core\RemoteControl.h" />
+    <ClInclude Include="core\ShareData.h" />
+    <ClInclude Include="core\TestFunc.h" />
+    <ClInclude Include="core\ThreadObject.h" />
+    <ClInclude Include="core\ThreadSync.h" />
+    <ClInclude Include="core\Timer.h" />
+    <ClInclude Include="core\UdpHelper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="save_model\softX_model1\saved_model.pb" />
+    <None Include="save_model\softX_model1\variables\variables.data-00000-of-00001" />
+    <None Include="save_model\softX_model1\variables\variables.index" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1b5e01ed-e85e-4fdd-98bc-d4502e01e9f8}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>JRTF</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Generic</TargetLinuxPlatform>
+    <LinuxProjectType>{2238F9CD-F817-4ECC-BD14-2524D2669B35}</LinuxProjectType>
+    <ProjectName>JRTF-softX</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <CustomBuildAfterTargets>
+    </CustomBuildAfterTargets>
+    <OutDir>$(ProjectDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <SourcesToCopyRemotelyOverride>@(SourcesToCopyRemotely);@(DataFilesToCopyRemotely)</SourcesToCopyRemotelyOverride>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Link>
+      <AdditionalDependencies>/usr/local/lib/libtensorflow_cc.so.2;/usr/local/lib/libtensorflow_framework.so.2;/usr/local/lib/libhdf5_hl_cpp.so.200;/usr/local/lib/libhdf5_cpp.so.200;/usr/local/lib/libhdf5_hl.so.200;/usr/local/lib/libhdf5.so.200;/usr/local/lib/libnidaqmx.so;/usr/local/mdsplus/lib/libXTreeShr.so;/usr/local/mdsplus/lib/libXmdsShr.so;/usr/local/mdsplus/lib/libTreeShr.so;/usr/local/mdsplus/lib/libTdiShrExt.so;/usr/local/mdsplus/lib/libTdiShr.so;/usr/local/mdsplus/lib/libtcl_commands.so;/usr/local/mdsplus/lib/libMdsShr.so;/usr/local/mdsplus/lib/libMdsServerShr.so;/usr/local/mdsplus/lib/libMdsObjectsCppShr.so;/usr/local/mdsplus/lib/libMdsMisc.so;/usr/local/mdsplus/lib/libMdsMath.so;/usr/local/mdsplus/lib/libMdsLib_client.so;/usr/local/mdsplus/lib/libMdsLib.so;/usr/local/mdsplus/lib/libMdsIpUDTV6.so;/usr/local/mdsplus/lib/libMdsIpUDT.so;/usr/local/mdsplus/lib/libMdsIpTCPV6.so;/usr/local/mdsplus/lib/libMdsIpTCP.so;/usr/local/mdsplus/lib/libMdsIpSrvShr.so;/usr/local/mdsplus/lib/libMdsIpShr.so;/usr/local/mdsplus/lib/libMdsdcl.so;/usr/local/mdsplus/lib/libJavaMds.so;%(AdditionalDependencies)</AdditionalDependencies>
+      <LibraryDependencies>rt;dl;pthread;%(LibraryDependencies)</LibraryDependencies>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <SharedLibrarySearchPath>%(SharedLibrarySearchPath)</SharedLibrarySearchPath>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>/usr/local/mdsplus/include/;/home/tcy/libni/include;/home/tcy/libhdf5/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src;.\abs;.\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-I /home/chenming/projects/JRTF/support/log4cplus/include -I /home/chenming/projects/JRTF/support/ni/include -I /home/chenming/projects/JRTF/abs -I /home/chenming/projects/JRTF/core %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

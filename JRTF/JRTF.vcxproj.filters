@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\AB.cpp" />
+    <ClCompile Include="core\Cmd.cpp" />
+    <ClCompile Include="core\Console.cpp" />
+    <ClCompile Include="core\Global.cpp" />
+    <ClCompile Include="core\Hub.cpp" />
+    <ClCompile Include="core\main.cpp" />
+    <ClCompile Include="core\Pipeline.cpp" />
+    <ClCompile Include="core\RemoteControl.cpp" />
+    <ClCompile Include="core\ShareData.cpp" />
+    <ClCompile Include="core\TestFunc.cpp" />
+    <ClCompile Include="core\ThreadObject.cpp" />
+    <ClCompile Include="core\Timer.cpp" />
+    <ClCompile Include="core\UdpHelper.cpp" />
+    <ClCompile Include="abs\test.cpp" />
+    <ClCompile Include="abs\softX.cpp" />
+    <ClCompile Include="abs\NIAI.cpp" />
+    <ClCompile Include="abs\NIAO.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\AB.h" />
+    <ClInclude Include="core\Cmd.h" />
+    <ClInclude Include="core\Console.h" />
+    <ClInclude Include="core\Global.h" />
+    <ClInclude Include="core\Hub.h" />
+    <ClInclude Include="core\Pipeline.h" />
+    <ClInclude Include="core\RemoteControl.h" />
+    <ClInclude Include="core\ShareData.h" />
+    <ClInclude Include="core\TestFunc.h" />
+    <ClInclude Include="core\ThreadObject.h" />
+    <ClInclude Include="core\ThreadSync.h" />
+    <ClInclude Include="core\Timer.h" />
+    <ClInclude Include="core\UdpHelper.h" />
+    <ClInclude Include="abs\test.h" />
+    <ClInclude Include="abs\softX.h" />
+    <ClInclude Include="abs\NIAI.h" />
+    <ClInclude Include="abs\NIAO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="save_model\softX_model1\variables\variables.data-00000-of-00001" />
+    <None Include="save_model\softX_model1\variables\variables.index" />
+    <None Include="save_model\softX_model1\saved_model.pb" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,627 @@
+﻿  正在清理远程项目目录
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中间目录(D:\Sum\project-git\test\JRTF\JRTF\obj\x64\Debug\)包含从另一个项目(JRTFtest.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  正在验证源
+  正在将源远程复制到“211.67.27.33”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  NIAI.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(41,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(41,1): warning :    41 | }
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(41,1): warning :       | ^
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(24,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(24,1): warning :    24 | }
+D:\Sum\project-git\test\JRTF\JRTF\abs\NIAI.cpp(24,1): warning :       | ^
+  NIAO.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+  softX.cpp
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/absl/strings/str_cat.h(171,19): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :   381 | TF_DEFINE_CHECK_OP_IMPL(Check_EQ,
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :   383 | TF_DEFINE_CHECK_OP_IMPL(Check_NE, !=)  // Use CHECK(x == NULL) instead.
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :   384 | TF_DEFINE_CHECK_OP_IMPL(Check_LE, <=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :   385 | TF_DEFINE_CHECK_OP_IMPL(Check_LT, <)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :   386 | TF_DEFINE_CHECK_OP_IMPL(Check_GE, >=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :   387 | TF_DEFINE_CHECK_OP_IMPL(Check_GT, >)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(91,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(95,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :   181 |     if ('A' <= *i && *i <= 'Z') *i += 'a' - 'A';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :   189 |     if ('a' <= *i && *i <= 'z') *i += 'A' - 'a';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning : conversion from ‘long int’ to ‘google::protobuf::int32’ {aka ‘int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :   360 |     return strtol(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :       |            ~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning : conversion from ‘long unsigned int’ to ‘google::protobuf::uint32’ {aka ‘unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :   367 |     return strtoul(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :       |            ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/attr_value.pb.h(687,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/node_def.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(300,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(332,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(587,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(590,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(621,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(624,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/XprHelper.h(251,55): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(249,89): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(255,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(261,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(262,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(389,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(392,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(36,55): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(440,68): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :    49 | EIGEN_ALWAYS_INLINE DSizes<IndexType, NumDims> strides(
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :       |                                              ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :    51 |   return strides<Layout>(DSizes<IndexType, NumDims>(dimensions));
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :       |                                                   ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(55,44): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(57,49): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(107,27): warning : conversion from ‘int’ to ‘int8_t’ {aka ‘signed char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(109,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(111,29): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(113,29): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(404,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(412,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(422,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(468,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(475,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(484,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(487,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(495,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(499,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(522,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(530,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(540,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(553,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(562,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(566,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(573,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(576,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(579,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(726,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(728,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(733,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(735,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(740,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(742,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(747,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(749,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(754,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(765,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(769,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(781,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(822,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(827,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(831,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(836,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(840,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(845,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(849,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(855,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(859,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(864,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(868,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(873,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(895,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(900,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(905,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(912,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(917,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(922,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/step_stats.pb.h(1180,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/cluster.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/rewriter_config.pb.h(517,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(1923,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3719,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3722,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3753,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3756,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/graph_debug_info.pb.h(472,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/struct.pb.h(874,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(146,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(354,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(164,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(167,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(479,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(511,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2470,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2502,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(78,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(78,1): warning :    78 | }
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(78,1): warning :       | ^
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(97,50): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(97,50): warning :    97 |                 input_tensor_mapped(0, c) = sxr[c];
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(97,50): warning :       |                                             ~~~~~^
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(116,22): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(116,22): warning :   116 |         delete temp->share;
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(116,22): warning :       |                      ^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(173,27): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(173,27): warning :   173 |                 int c = b * 500;
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(173,27): warning :       |                         ~~^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(190,25): warning : conversion from ‘int’ to ‘short int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(190,25): warning :   190 |             short c = d * 10;
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(190,25): warning :       |                       ~~^~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(206,27): warning : catching polymorphic type ‘class H5::FileIException’ by value [-Wcatch-value=]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(206,27): warning :   206 |     catch (FileIException error)
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(206,27): warning :       |                           ^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(213,30): warning : catching polymorphic type ‘class H5::DataSetIException’ by value [-Wcatch-value=]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(213,30): warning :   213 |     catch (DataSetIException error)
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(213,30): warning :       |                              ^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(220,32): warning : catching polymorphic type ‘class H5::DataSpaceIException’ by value [-Wcatch-value=]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(220,32): warning :   220 |     catch (DataSpaceIException error)
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(220,32): warning :       |                                ^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(227,31): warning : catching polymorphic type ‘class H5::DataTypeIException’ by value [-Wcatch-value=]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(227,31): warning :   227 |     catch (DataTypeIException error)
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(227,31): warning :       |                               ^~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning :    53 |     number = size / sizeof(int);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning :       |              ~~~~~^~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning :    56 |     number = size / sizeof(float);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning :       |              ~~~~~^~~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning :    59 |     number = size / sizeof(long);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning :       |              ~~~~~^~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning :    62 |     number = size / sizeof(double);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning :       |              ~~~~~^~~~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning :    77 |   for (size_t i = 0; i < number; i++)
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning :       |                      ~~^~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning :    70 |  }
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning :       |  ^
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(136,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(136,1): warning :   136 | }
+D:\Sum\project-git\test\JRTF\JRTF\abs\softX.cpp(136,1): warning :       | ^
+  test.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(28,13): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(28,13): warning :    28 |  err = write(latency_target_fd, &latency_target_value, 4);
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(28,13): warning :       |        ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(84,25): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int64_t’ {aka ‘long int’} [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(84,25): warning :    84 |    for (size_t i = 1; i <=count_run; i++)
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(84,25): warning :       |                       ~~^~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(119,21): warning : narrowing conversion of ‘data_nums’ from ‘long int’ to ‘hsize_t’ {aka ‘long long unsigned int’} [-Wnarrowing]
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(119,21): warning :   119 |  hsize_t rim[2] = { data_nums,1 };
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(119,21): warning :       |                     ^~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(130,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(130,1): warning :   130 | }
+D:\Sum\project-git\test\JRTF\JRTF\abs\test.cpp(130,1): warning :       | ^
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning :    53 |     number = size / sizeof(int);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(53,19): warning :       |              ~~~~~^~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning :    56 |     number = size / sizeof(float);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(56,19): warning :       |              ~~~~~^~~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning :    59 |     number = size / sizeof(long);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(59,19): warning :       |              ~~~~~^~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning :    62 |     number = size / sizeof(double);
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(62,19): warning :       |              ~~~~~^~~~~~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning :    77 |   for (size_t i = 0; i < number; i++)
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning :       |                      ~~^~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(77,24): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘int’ [-Wsign-compare]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning :    70 |  }
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.h(70,2): warning :       |  ^
+  AB.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+  Cmd.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Console.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Global.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Hub.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+D:\Sum\project-git\test\JRTF\JRTF\core\Hub.cpp(22,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Hub.cpp(22,1): warning :    22 | }
+D:\Sum\project-git\test\JRTF\JRTF\core\Hub.cpp(22,1): warning :       | ^
+  main.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/absl/strings/str_cat.h(171,19): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :   381 | TF_DEFINE_CHECK_OP_IMPL(Check_EQ,
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :   383 | TF_DEFINE_CHECK_OP_IMPL(Check_NE, !=)  // Use CHECK(x == NULL) instead.
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :   384 | TF_DEFINE_CHECK_OP_IMPL(Check_LE, <=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :   385 | TF_DEFINE_CHECK_OP_IMPL(Check_LT, <)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :   386 | TF_DEFINE_CHECK_OP_IMPL(Check_GE, >=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :   387 | TF_DEFINE_CHECK_OP_IMPL(Check_GT, >)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(91,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(95,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :   181 |     if ('A' <= *i && *i <= 'Z') *i += 'a' - 'A';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :   189 |     if ('a' <= *i && *i <= 'z') *i += 'A' - 'a';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning : conversion from ‘long int’ to ‘google::protobuf::int32’ {aka ‘int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :   360 |     return strtol(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :       |            ~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning : conversion from ‘long unsigned int’ to ‘google::protobuf::uint32’ {aka ‘unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :   367 |     return strtoul(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :       |            ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/attr_value.pb.h(687,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/node_def.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(300,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(332,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(587,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(590,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(621,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(624,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/XprHelper.h(251,55): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(249,89): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(255,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(261,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(262,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(389,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(392,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(36,55): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(440,68): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :    49 | EIGEN_ALWAYS_INLINE DSizes<IndexType, NumDims> strides(
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :       |                                              ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :    51 |   return strides<Layout>(DSizes<IndexType, NumDims>(dimensions));
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :       |                                                   ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(55,44): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(57,49): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(107,27): warning : conversion from ‘int’ to ‘int8_t’ {aka ‘signed char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(109,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(111,29): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(113,29): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(404,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(412,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(422,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(468,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(475,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(484,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(487,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(495,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(499,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(522,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(530,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(540,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(553,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(562,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(566,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(573,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(576,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(579,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(726,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(728,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(733,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(735,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(740,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(742,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(747,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(749,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(754,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(765,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(769,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(781,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(822,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(827,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(831,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(836,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(840,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(845,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(849,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(855,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(859,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(864,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(868,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(873,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(895,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(900,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(905,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(912,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(917,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(922,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/step_stats.pb.h(1180,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/cluster.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/rewriter_config.pb.h(517,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(1923,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3719,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3722,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3753,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3756,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/graph_debug_info.pb.h(472,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/struct.pb.h(874,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(146,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(354,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(164,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(167,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(479,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(511,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2470,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2502,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  Pipeline.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(59,22): warning : conversion from ‘long int’ to ‘__pid_t’ {aka ‘int’} may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(59,22): warning :    59 |  me->my_tid = syscall(SYS_gettid);//save the pipe thread tid to mytid
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(59,22): warning :       |               ~~~~~~~^~~~~~~~~~~~
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(107,46): warning : conversion from ‘long int’ to ‘__pid_t’ {aka ‘int’} may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(107,46): warning :   107 |  pipe_timer.create_timer_3(TIMER_SIG, syscall(SYS_gettid), pipe_timer_func, (void *)this);
+D:\Sum\project-git\test\JRTF\JRTF\core\Pipeline.cpp(107,46): warning :       |                                       ~~~~~~~^~~~~~~~~~~~
+  RemoteControl.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  ShareData.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.cpp(21,13): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.cpp(21,13): warning :    21 |   delete [] share;
+D:\Sum\project-git\test\JRTF\JRTF\core\ShareData.cpp(21,13): warning :       |             ^~~~~
+  TestFunc.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\test\JRTF\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/absl/strings/str_cat.h(171,19): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :   381 | TF_DEFINE_CHECK_OP_IMPL(Check_EQ,
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(381,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :   383 | TF_DEFINE_CHECK_OP_IMPL(Check_NE, !=)  // Use CHECK(x == NULL) instead.
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(383,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :   384 | TF_DEFINE_CHECK_OP_IMPL(Check_LE, <=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(384,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :   385 | TF_DEFINE_CHECK_OP_IMPL(Check_LT, <)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(385,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :   386 | TF_DEFINE_CHECK_OP_IMPL(Check_GE, >=)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(386,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(370,29): warning : comparison of integer expressions of different signedness: ‘const size_t’ {aka ‘const long unsigned int’} and ‘int’ [-Wsign-compare]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message : in definition of macro ‘TF_PREDICT_FALSE’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :    83 | #define TF_PREDICT_FALSE(x) (__builtin_expect(x, 0))
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/macros.h(83,47): message :       |                                               ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message : in expansion of macro ‘TF_DEFINE_CHECK_OP_IMPL’
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :   387 | TF_DEFINE_CHECK_OP_IMPL(Check_GT, >)
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/platform/default/logging.h(387,1): message :       | ^~~~~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(91,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(95,27): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :   181 |     if ('A' <= *i && *i <= 'Z') *i += 'a' - 'A';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(181,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :   189 |     if ('a' <= *i && *i <= 'z') *i += 'A' - 'a';
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(189,36): warning :       |                                 ~~~^~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning : conversion from ‘long int’ to ‘google::protobuf::int32’ {aka ‘int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :   360 |     return strtol(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(360,18): warning :       |            ~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning : conversion from ‘long unsigned int’ to ‘google::protobuf::uint32’ {aka ‘unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :   367 |     return strtoul(nptr, endptr, base);
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src/google/protobuf/stubs/strutil.h(367,19): warning :       |            ~~~~~~~^~~~~~~~~~~~~~~~~~~~
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/attr_value.pb.h(687,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/node_def.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(300,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(332,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(587,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(590,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(621,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/function.pb.h(624,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/../../../Eigen/src/Core/util/XprHelper.h(251,55): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(249,89): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(255,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(261,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(262,75): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(389,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorIndexList.h(392,57): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(36,55): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorDimensions.h(440,68): warning : conversion from ‘long int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :    49 | EIGEN_ALWAYS_INLINE DSizes<IndexType, NumDims> strides(
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(49,46): warning :       |                                              ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :    51 |   return strides<Layout>(DSizes<IndexType, NumDims>(dimensions));
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(51,51): warning :       |                                                   ^
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(55,44): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/unsupported/Eigen/CXX11/src/Tensor/TensorBlock.h(57,49): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(107,27): warning : conversion from ‘int’ to ‘int8_t’ {aka ‘signed char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(109,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(111,29): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/third_party/eigen3/unsupported/Eigen/CXX11/src/FixedPoint/FixedPointTypes.h(113,29): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(404,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(412,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(422,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(468,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(475,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(484,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(487,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(495,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(499,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(522,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(530,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(540,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(553,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(562,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(566,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(573,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(576,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(579,27): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(726,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(728,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(733,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(735,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(740,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(742,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(747,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(749,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(754,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(765,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(769,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(781,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(822,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(827,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(831,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(836,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(840,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(845,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(849,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(855,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(859,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(864,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(868,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(873,34): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(895,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(900,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(905,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(912,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(917,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/tensor.h(922,25): warning : conversion from ‘long unsigned int’ to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/framework/step_stats.pb.h(1180,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/cluster.pb.h(97,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/rewriter_config.pb.h(517,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(1923,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3719,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3722,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3753,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/config.pb.h(3756,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/graph_debug_info.pb.h(472,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/struct.pb.h(874,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(146,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/saved_object_graph.pb.h(354,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(164,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(167,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(479,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(511,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2470,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/tensorflow/core/protobuf/meta_graph.pb.h(2502,98): warning : conversion from ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘long unsigned int’} to ‘int’ may change value [-Wconversion]
+  ThreadObject.cpp
+  Timer.cpp
+  UdpHelper.cpp
+D:\Sum\project-git\test\JRTF\JRTF\core\UdpHelper.cpp(111,21): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\test\JRTF\JRTF\core\UdpHelper.cpp(111,21): warning :   111 |   recvlen = recvfrom(fd, rbuf, UDPHELPER_RBUF, 0, (struct sockaddr *)&(remaddr), &(remaddrlen));
+D:\Sum\project-git\test\JRTF\JRTF\core\UdpHelper.cpp(111,21): warning :       |             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  JRTF.vcxproj -> D:\Sum\project-git\test\JRTF\JRTF\bin\x64\Debug\JRTF-softX.out
