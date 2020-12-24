@@ -14,7 +14,10 @@ public:
 	void ErroeCheck();
 private:
 	int32 error;
-	TaskHandle taskHandle = 0;
+	TaskHandle taskHandle_1 = 0;
+	TaskHandle taskHandle_2 = 0;
+	float64 data_1[15];
+	float64 data_2[15]; 
 	float64 data[30];
 	int32 read;
 	int errorEnable;

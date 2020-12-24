@@ -1,0 +1,85 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“211.67.27.33”
+  正在验证体系结构
+  正在验证体系结构
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Application Type\Linux\1.0\Linux.targets(190,5): warning : 当前项目体系结构“ARM”不兼容远程系统体系结构“x64”(“x64”)。请在 Configuration Manager 中将项目体系结构切换为“x64”。如果正在交叉编译，可以忽略此警告。
+  正在启动远程生成
+  正在编译源:
+  NIAI.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAI.h(4,9): error : AB.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAI.h(4,9): error :     4 | #include<AB.h>
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAI.h(4,9): error :       |         ^~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAI.h(4,9): error : compilation terminated.
+  NIAO.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAO.h(4,9): error : AB.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAO.h(4,9): error :     4 | #include"AB.h"
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAO.h(4,9): error :       |         ^~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\abs\NIAO.h(4,9): error : compilation terminated.
+  softX.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\abs\softX.h(1,10): error : tensorflow/core/platform/env.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\abs\softX.h(1,10): error :     1 | #include <tensorflow/core/platform/env.h>
+D:\Sum\project-git\JRTF-softX\JRTF\abs\softX.h(1,10): error :       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\abs\softX.h(1,10): error : compilation terminated.
+  test.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\abs\test.h(2,9): error : AB.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\abs\test.h(2,9): error :     2 | #include"AB.h"
+D:\Sum\project-git\JRTF-softX\JRTF\abs\test.h(2,9): error :       |         ^~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\abs\test.h(2,9): error : compilation terminated.
+  AB.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+  Cmd.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Console.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Global.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  Hub.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+D:\Sum\project-git\JRTF-softX\JRTF\core\Hub.cpp(22,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Hub.cpp(22,1): warning :    22 | }
+D:\Sum\project-git\JRTF-softX\JRTF\core\Hub.cpp(22,1): warning :       | ^
+  main.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error : test.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error :     5 | #include "test.h"
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error :       |          ^~~~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error : compilation terminated.
+  Pipeline.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(59,22): warning : conversion from ‘long int’ to ‘__pid_t’ {aka ‘int’} may change value [-Wconversion]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(59,22): warning :    59 |  me->my_tid = syscall(SYS_gettid);//save the pipe thread tid to mytid
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(59,22): warning :       |               ~~~~~~~^~~~~~~~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(107,46): warning : conversion from ‘long int’ to ‘__pid_t’ {aka ‘int’} may change value [-Wconversion]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(107,46): warning :   107 |  pipe_timer.create_timer_3(TIMER_SIG, syscall(SYS_gettid), pipe_timer_func, (void *)this);
+D:\Sum\project-git\JRTF-softX\JRTF\core\Pipeline.cpp(107,46): warning :       |                                       ~~~~~~~^~~~~~~~~~~~
+  RemoteControl.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\AB.h(39,56): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :    12 |  virtual double get_data(){};
+D:\Sum\project-git\JRTF-softX\JRTF\core\Cmd.h(12,28): warning :       |                            ^
+  ShareData.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\ShareData.cpp(21,13): warning : deleting ‘void*’ is undefined [-Wdelete-incomplete]
+D:\Sum\project-git\JRTF-softX\JRTF\core\ShareData.cpp(21,13): warning :    21 |   delete [] share;
+D:\Sum\project-git\JRTF-softX\JRTF\core\ShareData.cpp(21,13): warning :       |             ^~~~~
+  TestFunc.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error : test.h: No such file or directory
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error :     5 | #include "test.h"
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error :       |          ^~~~~~~~
+D:\Sum\project-git\JRTF-softX\JRTF\core\TestFunc.h(5,10): error : compilation terminated.
+  ThreadObject.cpp
+  Timer.cpp
+  UdpHelper.cpp
+D:\Sum\project-git\JRTF-softX\JRTF\core\UdpHelper.cpp(111,21): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+D:\Sum\project-git\JRTF-softX\JRTF\core\UdpHelper.cpp(111,21): warning :   111 |   recvlen = recvfrom(fd, rbuf, UDPHELPER_RBUF, 0, (struct sockaddr *)&(remaddr), &(remaddrlen));
+D:\Sum\project-git\JRTF-softX\JRTF\core\UdpHelper.cpp(111,21): warning :       |             ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -123,7 +123,7 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ClCompile>
-      <AdditionalIncludeDirectories>/usr/local/mdsplus/include/;/home/tcy/libni/include;/home/tcy/libhdf5/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src;.\abs;.\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>/usr/local/mdsplus/include/;/home/tcy/libni/include;/home/tcy/libhdf5/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include;/home/tcy/libtensorflow/libtensorflow_cc/r2.3/include/src;.\core;.\abs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>-I /home/chenming/projects/JRTF/support/log4cplus/include -I /home/chenming/projects/JRTF/support/ni/include -I /home/chenming/projects/JRTF/abs -I /home/chenming/projects/JRTF/core %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
   </ItemDefinitionGroup>

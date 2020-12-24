@@ -66,7 +66,7 @@ int SoftX::init()
     ErrorCheck(a);
     a=DAQmxCreateTask("taskAO", &taskAO);
     ErrorCheck(a);
-    a=DAQmxCreateAOVoltageChan(taskAO, "PXI1Slot3/ao0", "",  -5.0, 5.0, DAQmx_Val_Volts, NULL);
+    a=DAQmxCreateAOVoltageChan(taskAO, "PXI1Slot5/ao0", "",  -5.0, 5.0, DAQmx_Val_Volts, NULL);
     ErrorCheck(a);
     a=DAQmxCfgSampClkTiming(taskAO, "", 1000.0, DAQmx_Val_Rising, DAQmx_Val_ContSamps, 1);
     ErrorCheck(a);

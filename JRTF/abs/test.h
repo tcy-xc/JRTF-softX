@@ -1,10 +1,11 @@
-#pragma once
 #include<iostream>
 #include"AB.h"
 #include<time.h>
 #include<NIDAQmx.h>
 #include"H5Cpp.h"
 #include"Global.h"
+
+
 #include"Hub.h"
 /*
 测试每个循环的时间延时，并且进行使能控制。
@@ -29,13 +30,13 @@ private:
 	double log_ms[1000];
 	double *log_data;
 
-	long shotNo;
+	int32 shotNo;
 	long MAX_ns;
 	long MIN_ns;
 	long AVE_ns;
 	TaskHandle task_able;
 	float64 able[1];
 	int32 able_num;
-
+	int ab;
 };
 

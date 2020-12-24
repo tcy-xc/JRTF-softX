@@ -25,25 +25,33 @@ ShareData* NIAI::get_data(std::string name)
 
 int NIAI::init()
 {
-	error = DAQmxClearTask(taskHandle);
+	error = DAQmxClearTask(taskHandle_1);
+	error = DAQmxClearTask(taskHandle_2);
 	ErroeCheck();
-	error = DAQmxCreateTask("taskAI", &taskHandle);
+	error = DAQmxCreateTask("taskAI_1", &taskHandle_1);
+	error = DAQmxCreateTask("taskAI_2", &taskHandle_2);
 	ErroeCheck();
-	error = DAQmxCreateAIVoltageChan(taskHandle, "PXI1Slot3/ai0:7,PXI1Slot3/ai16:22,PXI1Slot5/ai0:7,PXI1Slot5/ai16:22", "", DAQmx_Val_Diff, -10.0, 10.0, DAQmx_Val_Volts, NULL);
+//	error = DAQmxCreateAIVoltageChan(taskHandle, "PXI1Slot3/ai0:7,PXI1Slot3/ai16:22,PXI1Slot7/ai0:7,PXI1Slot7/ai16:22", "", DAQmx_Val_Diff, -10.0, 10.0, DAQmx_Val_Volts, NULL);
+	error = DAQmxCreateAIVoltageChan(taskHandle_1, "PXI1Slot3/ai0:7,,PXI1Slot3/ai16:22", "", DAQmx_Val_Diff, -10.0, 10.0, DAQmx_Val_Volts, NULL);
+	error = DAQmxCreateAIVoltageChan(taskHandle_2, "PXI1Slot7/ai0:7,,PXI1Slot7/ai16:22", "", DAQmx_Val_Diff, -10.0, 10.0, DAQmx_Val_Volts, NULL);
 //	error = DAQmxCreateAIVoltageChan(taskHandle, "PXI1Slot3/ai0", "", DAQmx_Val_Diff, -10.0, 10.0, DAQmx_Val_Volts, NULL);
 	ErroeCheck();
-	error = DAQmxCfgSampClkTiming(taskHandle, "", 1000.0, DAQmx_Val_Rising, DAQmx_Val_ContSamps, 1000);
+	error = DAQmxCfgSampClkTiming(taskHandle_1, "", 1000.0, DAQmx_Val_Rising, DAQmx_Val_ContSamps, 1000);
+	error = DAQmxCfgSampClkTiming(taskHandle_2, "", 1000.0, DAQmx_Val_Rising, DAQmx_Val_ContSamps, 1000);
 	ErroeCheck();
-	error = DAQmxStartTask(taskHandle);
+	error = DAQmxStartTask(taskHandle_1);
+	error = DAQmxStartTask(taskHandle_2);
 	ErroeCheck();
-	printf("taskAI start success\n");
+	printf("taskAI_1 start success\n");
+	printf("taskAI_2 start success\n");
 	printf("NI DAQmx AI error = %d\n", error);
 }
 
 
 void NIAI::dowork()
 {
-	error = DAQmxReadAnalogF64(taskHandle, 1, 10.0, DAQmx_Val_GroupByChannel, data, 30, &read, NULL);
+	error = DAQmxReadAnalogF64(taskHandle_1, 1, 10.0, DAQmx_Val_GroupByChannel, data_1, 15, &read, NULL);
+	error = DAQmxReadAnalogF64(taskHandle_2, 1, 10.0, DAQmx_Val_GroupByChannel, data_2, 15, &read, NULL);
 	if (read!=1&&errorEnable==0)
 	{
 		printf("NI DAQmx read error\n");
@@ -58,6 +66,11 @@ void NIAI::dowork()
 		printf("NI DAQmx error = %d\n", error);
 		errorEnable ++;
 		ErroeCheck();
+	}
+	for (size_t i = 0; i < 15; i++)
+	{
+		data[i] = data_1[i];
+		data[15+i] = data_2[i];
 	}
 }
 
