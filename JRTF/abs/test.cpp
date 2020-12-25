@@ -117,7 +117,7 @@ void test::dowork()
 		}
 	    softX_able = 0;
 		count_run = -1;                   //执行完后加一,不是在执行前
-		pthread_exit(0);
+//		pthread_exit(0);
 	}
 }
 
